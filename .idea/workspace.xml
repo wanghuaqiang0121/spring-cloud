@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="548f1bf6-6138-4bd1-8a5f-b772a5bd504b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-server/server-turbine/src/main/main6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-server/server-user/src/main/main2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-server/server-users-security/src/main/main4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/.settings/org.springframework.ide.eclipse.boot.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/main3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/src/test/java/com/cloud/zuul/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/target/classes/com/cloud/zuul/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/target/classes/com/cloud/zuul/fallback/ServerFallback$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/target/classes/com/cloud/zuul/fallback/ServerFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zuul/target/test-classes/com/cloud/zuul/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/api/ApiCodeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/api/JsonApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/api/MultiLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/auth/Level.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/auth/RequiresAuthentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/caculate/CalculateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/code/ValidCodeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/dao/IBaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/date/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/entity/BaseEntity$Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/entity/BaseEntity$Insert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/entity/BaseEntity$SelectAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/entity/BaseEntity$SelectOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/entity/BaseEntity$Update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/entity/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/md5/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/core/md5/Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/com/core/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-mongodb-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-server/server-mongodb-file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-mongodb-file/src/main/resource/application-dev2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/module-server/server-mongodb-file/src/main/resource/application-dev2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/.springBeans" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-turbine/target/classes/com/server/turbine/TurbineApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.settings/org.springframework.ide.eclipse.boot.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/.springBeans" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/UserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/aop/ValidatorAop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/aop/ValidatorConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/config/HikariDataSourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/config/RedisUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/controller/MyThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/controller/MyThread$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/controller/MyThread$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/controller/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/controller/OrganizationUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/controller/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/dao/OrganizationUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/dao/OrganizationUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/entity/OrganizationUser$Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/entity/OrganizationUser$ModuleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/entity/OrganizationUser$ModuleMenuList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/entity/OrganizationUser$ModuleOperationList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/entity/OrganizationUser$ModulePermissionList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/entity/OrganizationUser$ModuleRoleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/entity/OrganizationUser$changePassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/entity/OrganizationUser$updatePassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/entity/OrganizationUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/feign/IUserSecurityFeignService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/feign/IUserSecurityFeignServiceFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/global/BaseGlobal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/global/IOrganization$OrganizationStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/global/IOrganization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/message/Prompt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/com/server/user/service/OrganizationUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/i18n/prompt_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/i18n/prompt_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/i18n/validator_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/i18n/validator_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-user/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/target/classes/com/server/users/security/config/HikariDataSourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/target/classes/com/server/users/security/controller/SecurityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/target/classes/com/server/users/security/entity/User$Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/target/classes/com/server/users/security/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/target/classes/com/server/users/security/feign/IUserFeignService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/target/classes/com/server/users/security/feign/IUserFeignServiceFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-server/server-users-security/target/classes/com/server/users/security/userSecurityApplication.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/module-server/target/" />
+    <ignored path="$PROJECT_DIR$/core/target/" />
+    <ignored path="$PROJECT_DIR$/module-server/server-mongodb-file/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/module-server/server-users-security/target/" />
+    <ignored path="$PROJECT_DIR$/module-server/server-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/module-server/server-user/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Yxt\maven\repository" />
+        <option name="mavenHome" value="D:/Yxt/maven" />
+        <option name="userSettingsFile" value="D:\Yxt\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1979" />
+    <option name="y" value="18" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="module-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="module-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-mongodb-file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="module-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-mongodb-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="module-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-mongodb-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="module-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-turbine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="module-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="module-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="module-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="module-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-users-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ideaWorkspace\spring-cloud\module-server\server-mongodb-file" />
+          <option name="myCopyRoot" value="D:\ideaWorkspace\spring-cloud\module-server\server-mongodb-file" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ideaWorkspace\spring-cloud\module-server\server-mongodb-file" />
+          <option name="myCopyRoot" value="D:\ideaWorkspace\spring-cloud\module-server\server-mongodb-file" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="548f1bf6-6138-4bd1-8a5f-b772a5bd504b" name="Default Changelist" comment="" />
+      <created>1560480452623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560480452623</updated>
+    </task>
+    <task id="LOCAL-00001" summary="删除target">
+      <created>1560480566287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560480566287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.14750542" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除target" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除target" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
