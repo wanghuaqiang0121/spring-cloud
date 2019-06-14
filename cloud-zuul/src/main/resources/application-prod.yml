@@ -1,0 +1,48 @@
+server:
+  port: 4200
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100Mb #设置文件上传大小
+      max-request-size: 150Mb
+  application:
+    name: zuul-server
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: ttp://admin:123123@eureka1:8761/eureka/, http://admin:123123@eureka2:8762/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}:${spring.application.name}
+    metadata-map:
+      cluster: zuul
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true #开启超时
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000 #超时时间
+ribbon:
+  ReadTimeout: 10000 #读取超时
+  ConnectTimeout: 5000 #连接超时
+  MaxAutoRetries: 0 #最大自动恢复次数
+  MaxAutoRetriesNextServer: 1
+zuul:
+  host:
+    socket-timeout-millis: 10000
+    connect-timeout-millis: 5000
+  ignored-services: '*' #忽略所有默认匹配的path，只能路由到我们手动配置的path
+  routes:
+    api-user:
+      path: /api/user/**
+      serviceId: server-user
+server-user:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule

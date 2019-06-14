@@ -1,0 +1,21 @@
+package com.server.user.service;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.server.user.dao.UserMapper;
+import com.server.user.entity.User;
+
+@Service
+public class UserService {
+
+	@Autowired
+	private UserMapper mapper;
+	
+	public Map<String, Object> getOne(User user) {
+		return mapper.getOne(user);
+	}
+
+}

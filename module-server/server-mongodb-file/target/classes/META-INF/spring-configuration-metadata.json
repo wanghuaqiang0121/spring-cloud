@@ -1,0 +1,12 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.mongodb.file.config.HikariDataSourceConfiguration",
+      "name": "spring.datasource",
+      "sourceMethod": "public javax.sql.DataSource hikariDataSource() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}

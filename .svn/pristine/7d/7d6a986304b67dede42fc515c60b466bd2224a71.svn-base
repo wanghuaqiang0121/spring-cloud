@@ -1,0 +1,25 @@
+server:
+  port: 1000
+spring:
+  security: # 注册中心的安全认证
+    user:
+      name: admin
+      password: 245847
+  application:
+    name: eureka
+eureka:
+  environment: Develop # 修改eureka主页显示的生产环境值
+  datacenter: mysql # 修改eureka主页显示的数据中心
+  dashboard:
+    enabled: true # 启用仪表（默认为true），才可以访问到界面
+    path: /dashboard # 这个表示访问界面的地址，用途：伪装 用途比较有限
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}:${spring.application.name}
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:1000/eureka/
+    fetch-registry: false
+    register-with-eureka: false
